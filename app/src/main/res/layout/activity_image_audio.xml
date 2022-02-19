@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:orientation="vertical"
+    tools:context=".ImageAudio">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Extra Information"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/img"
+        android:layout_width="145dp"
+        android:layout_height="104dp"
+
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@color/teal_200"
+        android:src="@drawable/img"></ImageButton>
+    <ImageButton
+        android:id="@+id/mic"
+        android:layout_width="145dp"
+        android:layout_height="104dp"
+        android:layout_below="@+id/img"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/transparent"
+        android:src="@drawable/video">
+
+    </ImageButton>
+
+
+</LinearLayout>
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="204dp"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"/>
+
+
+        <ImageView
+            android:src="@drawable/temperory"
+            android:id="@+id/click_image1"
+            android:layout_width="108dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            />
+<Space
+    android:layout_width="20dp"
+    android:layout_height="wrap_content"/>
+
+        <VideoView
+            android:id="@+id/click_image2"
+            android:layout_width="108dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+
+            />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+
+
+
+    <com.ncorti.slidetoact.SlideToActView
+
+        android:id="@+id/example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:elevation="6dp"
+        android:foregroundGravity="right"
+        app:animation_duration="250"
+        app:area_margin="4dp"
+        app:border_radius="44dp"
+        app:inner_color="@color/teal_700"
+        app:outer_color="@color/white"
+        app:slider_height="80dp"
+        app:slider_locked="false"
+        app:text="          Swipe to Send "
+        app:text_size="25sp"
+        app:text_style="normal" />
+
+
+</LinearLayout>
