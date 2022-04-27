@@ -19,6 +19,7 @@
             android:background="@drawable/bordercolor"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="3dp"
             android:orientation="vertical">
 
             <TextView
@@ -28,7 +29,8 @@
                 android:layout_height="wrap_content"
                 android:text="Name"
                 android:paddingLeft="20dp"
-                android:textColor="@color/design_default_color_secondary" />
+                android:textStyle="bold"
+                android:textColor="@color/blue" />
 
             <TextView
                 android:id="@+id/tvPhone"
@@ -37,7 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Phone"
-                android:textColor="@color/design_default_color_secondary_variant"
+                android:textColor="@color/lightblue"
                 android:textStyle="bold" />
 
         </LinearLayout>

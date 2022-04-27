@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkbg"
+    android:orientation="vertical"
+    tools:context=".CitynameActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_rawRes="@raw/hellobotanime"
+        app:lottie_autoPlay="true"
+        android:layout_marginTop="-10dp"
+        app:lottie_loop="true"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your City Name"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:layout_marginTop="-50dp"
+        android:textStyle="normal"
+        android:textColor="@color/white"/>
+
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="40dp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="3dp"
+        android:layout_margin="10dp"
+        app:cardUseCompatPadding="true">
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:gravity="left"
+        android:fontFamily="@font/poppins_medium"
+        android:id="@+id/cityname"
+        android:layout_margin="0dp"
+        android:layout_gravity="center"
+        android:textColor="@color/blue"
+        android:hint="Enter Your City Name"
+        android:textColorHint="@color/blue"
+        android:layout_centerHorizontal="true" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Submit"
+        android:layout_margin="10dp"
+        android:id="@+id/submit"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+</LinearLayout>

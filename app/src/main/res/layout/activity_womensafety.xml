@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".WomenSafety">
+
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:titleTextColor="@color/white"
+            app:title="@string/womensafety"
+            android:outlineAmbientShadowColor="@color/purple_700"
+            android:outlineSpotShadowColor="@color/purple_700"
+            app:popupTheme="@style/Theme.ItRaeProject.PopupOverlay" />
+
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@drawable/side_nav_bar"
+        android:text="@string/addemergency"
+        android:textColor="#FFFFFF" />
+
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="312dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="25dp"
+        android:gravity="bottom|center"
+        android:text="@string/youaresafe"
+        android:textColor="@color/purple_700"
+        android:textSize="40dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textAlignment="center"
+        android:textStyle="normal" />
+
+    <!--com.ncorti.slidetoact.SlideToActView
+        android:id="@+id/example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="55dp"
+        android:elevation="6dp"
+        app:area_margin="4dp"
+        android:layout_marginBottom="20dp"
+        app:animation_duration="250"
+        app:outer_color="@color/teal_700"
+        app:inner_color="@color/white"
+        app:border_radius="44dp"
+        app:text="           Swipe Next"
+        app:text_style="normal"
+        android:foregroundGravity="right"
+        app:text_size="25sp"
+        app:slider_height="80dp"
+        app:slider_locked="false" /-->
+
+
+</LinearLayout>

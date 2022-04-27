@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/dashboard" />
+        <item
+            android:id="@+id/other"
+            android:icon="@drawable/ic_others"
+            android:title="@string/others" />
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/ic_notify"
+            android:title="@string/notification" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="@string/feedback" />
+        <item
+            android:id="@+id/shareusidea"
+            android:icon="@drawable/ic_share_us"
+            android:title="@string/shareusidea" />
+        <item
+            android:id="@+id/helpdesk"
+            android:icon="@drawable/ic_help"
+            android:title="@string/help" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="logout" />
+
+    </group>
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OnlineServicesMapsLayout">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/white"
+        app:navigationIcon="@drawable/ic_bacbtn"
+        android:outlineAmbientShadowColor="@color/purple_700"
+        android:outlineSpotShadowColor="@color/purple_700"
+        app:popupTheme="@style/Theme.ItRaeProject.PopupOverlay" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        app:cardCornerRadius="5dp">
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-65dp"
+            android:layout_marginBottom="-60dp"
+            android:id="@+id/webview"/>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

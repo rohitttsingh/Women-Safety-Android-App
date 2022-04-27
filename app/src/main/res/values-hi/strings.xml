@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E-Municipal Corporation</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+
+
+    <string name="dashboard">डैशबोर्ड</string>
+    <string name="latestfeature">नवीनतम सुविधा</string>
+    <string name="vehicleparkingfeature">शहर घोषणा फ़ीचर</string>
+    <string name="cityannouncementfeature">शहर घोषणा फ़ीचर</string>
+    <string name="multiplelanguagefeature">एकाधिक भाषाएँ फ़ीचर</string>
+    <string name="cityinfofeature">शहर सूचना फ़ीचर</string>
+    <string name="chatbotfeature">चैट बॉट फ़ीचर</string>
+    <string name="howtouseit">इसका उपयोग कैसे करना है?</string>
+    <string name="covidststs">कोविड - सांख्यिकी</string>
+    <string name="emergency">आपातकालीन</string>
+    <string name="onlineservices">ऑनलाइन सेवाएं</string>
+    <string name="mycityfeed">मेरे शहर का फ़ीड</string>
+    <string name="knowurcity">अपने शहर को जानें</string>
+    <string name="complain">शिकायत</string>
+    <string name="vehicleparking">वाहन पार्किंग की शिकायत</string>
+    <string name="womensafetyfeature">महिला सुरक्षा फ़ीचर</string>
+    <string name="marq">शहर की वर्तमान घोषणाओं को जानने के लिए टू माई सिटी फीड पर क्लिक करें। कोविड-हेल्पलाइन डायल 1075/18 00112545
+        घर में रहें, सुरक्षित रहें, हाथ धोएं और &amp; नियमित रूप से चेहरा। </string>
+
+    <string name = "others">अन्य</string>
+    <string name = "notification">अधिसूचना</string>
+    <string name = "feedback">फ़ीडबैक</string>
+    <string name = "shareusidea">हमारे विचार साझा करें</string>
+    <string name = "help">सहायता</string>
+    <string name = "logout">लॉगआउट</string>
+    <string name = "allemergencyservices">सभी आपातकालीन सेवाएं</string>
+    <string name = "waterdrainage">जल/जल निकासी सेवाएं ऑनलाइन</string>
+    <string name = "buslocator">बस लोकेटर</string>
+    <string name = "fireemergency">आग और आपातकालीन सेवा ऑनलाइन</string>
+    <string name="garbasebinlocator">कचरा बिन लोकेटर</string>
+    <string name = "wardofficelo">वार्ड ऑफिस लोकेटर</string>
+    <string name = "urbanhealthcarecenter">शहरी स्वास्थ्य केंद्र (UHC) लोकेटर</string>
+    <string name = "toiletlocator">शौचालय लोकेटर</string>
+    <string name = "gasbill">गैस बिल</string>
+    <string name = "cityatglance">एक नज़र में शहर</string>
+    <string name = "heritage">विरासत</string>
+    <string name = "otherattracion">अन्य आकर्षण</string>
+    <string name = "cityinfo">शहर की जानकारी।</string>
+    <string name = "citynews">सिटी न्यूज</string>
+    <string name = "weather">मौसम और वायु गुणवत्ता</string>
+    <string name = "events">इवेंट</string>
+    <string name = "plants">पौधे</string>
+    <string name = "knowabouticity">अपने शहर के बारे में अधिक जानें</string>
+    <string name = "vhnumber">वाहन संख्या</string>
+    <string name = "imagepreview">छवि पूर्वावलोकन</string>
+    <string name = "enterphnumber">फ़ोन नंबर दर्ज करें (10 अंक)</string>
+    <string name = "enterdescription">कुछ विवरण दर्ज करें</string>
+    <string name = "location"> स्थान</string>
+    <string name = "send">भेजें</string>
+    <string name = "womensafety">महिला सुरक्षा</string>
+    <string name = "addemergency">आपातकालीन संपर्क जोड़ें</string>
+    <string name = "youaresafe">आप सुरक्षित हैं!!</string>
+    <string name="allonlineservice">सभी ऑनलाइन सेवाएं नीचे</string>
+    <string name="complainservices">शिकायत सेवाएं</string>
+
+</resources>

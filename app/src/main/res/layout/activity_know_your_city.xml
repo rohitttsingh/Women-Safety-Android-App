@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkbg"
+    android:orientation="vertical"
+    tools:context=".KnowYourCityActivity">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:titleTextColor="@color/white"
+            app:title="@string/knowurcity"
+            app:navigationIcon="@drawable/ic_bacbtn"
+            android:outlineAmbientShadowColor="@color/purple_700"
+            android:outlineSpotShadowColor="@color/purple_700"
+            app:popupTheme="@style/Theme.ItRaeProject.PopupOverlay" />
+
+
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="@string/knowabouticity"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/viewline">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:rowCount="5"
+                android:columnCount="2">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cityatglance"
+                    android:layout_width="7dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="12dp"
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:background="@color/white"
+                    app:cardBackgroundColor="#1f79d7"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:id="@+id/textcityglance"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="@string/cityatglance"
+                            android:textColor="@color/white"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_above="@+id/textcityglance"
+                            android:layout_width="42dp"
+                            android:layout_height="39dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="7dp"
+                            android:src="@drawable/ic_cityglance" />
+                    </RelativeLayout>
+
+
+
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/hertiage"
+                    android:layout_width="7dp"
+                    android:layout_height="170dp"
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:layout_margin="12dp"
+                    android:background="@color/white"
+                    app:cardBackgroundColor="#552ed5"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:id="@+id/textcityglance1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="@string/heritage"
+                            android:textColor="@color/white"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="39dp"
+                            android:layout_above="@+id/textcityglance1"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginEnd="7dp"
+                            android:layout_marginRight="7dp"
+                            android:layout_marginBottom="7dp"
+                            android:src="@drawable/ic_heritage" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/plant"
+                    android:layout_width="7dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="12dp"
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:background="@color/white"
+                    app:cardBackgroundColor="#e030b6"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:id="@+id/textcityglance2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="@string/plants"
+                            android:textColor="@color/white"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="39dp"
+                            android:layout_above="@+id/textcityglance2"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginEnd="7dp"
+                            android:layout_marginRight="7dp"
+                            android:layout_marginBottom="7dp"
+                            android:src="@drawable/ic_plant" />
+                    </RelativeLayout>
+
+
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/otherattraction"
+                    android:layout_width="7dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="12dp"
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:background="@color/white"
+                    app:cardBackgroundColor="#e05353"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:id="@+id/textcityglance3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="@string/otherattracion"
+                            android:textColor="@color/white"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="39dp"
+                            android:layout_above="@+id/textcityglance3"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginEnd="7dp"
+                            android:layout_marginRight="7dp"
+                            android:layout_marginBottom="7dp"
+                            android:src="@drawable/ic_otherattraction" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/events"
+                    android:layout_width="7dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="12dp"
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:background="@color/white"
+                    app:cardBackgroundColor="#e28e45"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:id="@+id/textcityglance4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="@string/events"
+                            android:textColor="@color/white"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="39dp"
+                            android:layout_above="@+id/textcityglance4"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginEnd="7dp"
+                            android:layout_marginRight="7dp"
+                            android:layout_marginBottom="7dp"
+                            android:src="@drawable/ic_event" />
+                    </RelativeLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cityinfo"
+                    android:layout_width="7dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="12dp"
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:background="@color/white"
+                    app:cardBackgroundColor="#34c278"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:id="@+id/textcityglance5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="@string/cityinfo"
+                            android:textColor="@color/white"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="39dp"
+                            android:layout_above="@+id/textcityglance5"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginEnd="7dp"
+                            android:layout_marginRight="7dp"
+                            android:layout_marginBottom="7dp"
+                            android:src="@drawable/ic_others" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/weather"
+                    android:layout_width="7dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="12dp"
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:background="@color/white"
+                    app:cardBackgroundColor="#1b95e0"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:id="@+id/textcityglance6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="@string/weather"
+                            android:textColor="@color/white"
+                            android:textSize="13dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="39dp"
+                            android:layout_above="@+id/textcityglance6"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginEnd="7dp"
+                            android:layout_marginRight="7dp"
+                            android:layout_marginBottom="7dp"
+                            android:src="@drawable/ic_weather" />
+                    </RelativeLayout>
+
+
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/citynews"
+                    android:layout_width="7dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="12dp"
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:background="@color/white"
+                    app:cardBackgroundColor="#b3317a"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:id="@+id/textcityglance7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="@string/citynews"
+                            android:textColor="@color/white"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="39dp"
+                            android:layout_above="@+id/textcityglance7"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginEnd="7dp"
+                            android:layout_marginRight="7dp"
+                            android:layout_marginBottom="7dp"
+                            android:src="@drawable/ic_news" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </GridLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All Rights Reserved Vadodara Municipal Corporation 2022"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="11dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/scrollview"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

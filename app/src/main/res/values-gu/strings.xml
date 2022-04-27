@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E-Municipal Corporation</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+
+    <string name="dashboard">ડેશબોર્ડ</string>
+    <string name="latestfeature">નવીનતમ સુવિધા</string>
+    <string name="vehicleparkingfeature">વાહન પાર્કિંગ સુવિધા</string>
+    <string name="cityannouncementfeature">શહેરની જાહેરાત સુવિધા</string>
+    <string name="multiplelanguagefeature">બહુવિધ ભાષાઓ લક્ષણ</string>
+    <string name="cityinfofeature">શહેર માહિતી સુવિધા</string>
+    <string name="chatbotfeature">ચેટ બોટ લક્ષણ</string>
+    <string name="howtouseit">તેનો ઉપયોગ કેવી રીતે કરવો?</string>
+    <string name="covidststs">કોવિડ - આંકડા</string>
+    <string name="emergency">કટોકટી</string>
+    <string name="onlineservices">ઓનલાઇન સેવાઓ</string>
+    <string name="mycityfeed">માય સિટી ફીડ</string>
+    <string name="knowurcity">તમારા શહેરને જાણો</string>
+    <string name="complain">ફરિયાદ કરો</string>
+    <string name="vehicleparking">વાહન પાર્કિંગની ફરિયાદ</string>
+    <string name="womensafetyfeature">મહિલા સુરક્ષા વિશેષતા</string>
+    <string name="marq">શહેરની વર્તમાન જાહેરાતો જાણવા માટે માય સિટી ફીડ પર ક્લિક કરો. કોવિડ-હેલ્પલાઇન ડાયલ 1075 / 18 00112545
+        ઘરે રહો, સુરક્ષિત રહો, હાથ ધોઈ લો &amp; નિયમિતપણે ચહેરો. </string>
+
+    <string name="others">અન્ય</string>
+    <string name="notification">સૂચના</string>
+    <string name="feedback">પ્રતિભાવ</string>
+    <string name="shareusidea">અમને વિચાર શેર કરો</string>
+    <string name="help">મદદ</string>
+    <string name="logout">લૉગ આઉટ</string>
+    <string name="allemergencyservices">તમામ ઇમરજન્સી સેવાઓ</string>
+    <string name="waterdrainage">પાણી/ડ્રેનેજ સેવાઓ ઓનલાઇન</string>
+    <string name="buslocator">બસ લોકેટર</string>
+    <string name="fireemergency">ફાયર અને ઇમરજન્સી સેવા ઓનલાઇન</string>
+    <string name="garbasebinlocator">ગાર્બેજ બિન લોકેટર</string>
+    <string name="wardofficelo">વોર્ડ ઓફિસ લોકેટર</string>
+    <string name="urbanhealthcarecenter">અર્બન હેલ્થ સેન્ટર (UHC) લોકેટર</string>
+    <string name="toiletlocator">ટોયલેટ લોકેટર</string>
+    <string name="gasbill">ગેસ બિલ</string>
+    <string name="cityatglance">સિટી એટ ગ્લાન્સ</string>
+    <string name="heritage">ધરોહર</string>
+    <string name="otherattracion">અન્ય આકર્ષણો</string>
+    <string name="cityinfo">શહેરની માહિતી.</string>
+    <string name="citynews">શહેર સમાચાર</string>
+    <string name="weather">હવામાન અને હવાની ગુણવત્તા</string>
+    <string name="events">ઘટનાઓ</string>
+    <string name="plants">છોડ</string>
+    <string name="knowabouticity">તમારા શહેર વિશે વધુ જાણો</string>
+    <string name="vhnumber">વાહન નંબર</string>
+    <string name="imagepreview">છબી પૂર્વાવલોકન</string>
+    <string name="enterphnumber">ફોન નંબર દાખલ કરો (10 અંક)</string>
+    <string name="enterdescription">કેટલાક વર્ણન દાખલ કરો</string>
+    <string name="location">સ્થાન</string>
+    <string name="send">મોકલો</string>
+    <string name="womensafety">Women Safety</string>
+    <string name="addemergency">Add Emergency Contact</string>
+    <string name="youaresafe">You Are Safe!!</string>
+    <string name="allonlineservice">All Online Services Below</string>
+    <string name="complainservices">Complain Services</string>
+
+</resources>

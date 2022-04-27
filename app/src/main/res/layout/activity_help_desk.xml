@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    tools:context=".HelpDeskActivity">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:titleTextColor="@color/white"
+            app:title="Help Desk"
+            app:navigationIcon="@drawable/ic_bacbtn"
+            android:outlineAmbientShadowColor="@color/purple_700"
+            android:outlineSpotShadowColor="@color/purple_700"
+            app:popupTheme="@style/Theme.ItRaeProject.PopupOverlay" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_margin="5dp"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="10dp"
+                            android:elevation="10dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_height="wrap_content">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="English"
+                                            android:textColor="@color/blue"
+                                            android:textSize="20dp"
+                                            android:layout_margin="15dp"/>
+
+                                        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                                            android:id="@+id/youtube_player_view"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+
+                                            app:videoId="71lruCEBxDA"
+                                            app:autoPlay="false" />
+
+                                </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+                        <Space
+    android:layout_width="match_parent"
+    android:layout_height="15dp"/>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_margin="5dp"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="10dp"
+                            android:elevation="10dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_height="wrap_content">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Gujarati"
+                                            android:textColor="@color/blue"
+                                            android:textSize="20dp"
+                                            android:layout_margin="15dp"/>
+
+                                        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+
+                                            app:videoId="DjUGe-6ihpQ"
+                                            app:autoPlay="false" />
+
+                                </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="15dp"/>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_margin="5dp"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="10dp"
+                            android:elevation="10dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_height="wrap_content">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Hindi"
+                                            android:textColor="@color/blue"
+                                            android:textSize="20dp"
+                                            android:layout_margin="15dp"/>
+
+                                        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            app:videoId="zWq_qCSFlbg"
+                                            app:autoPlay="false" />
+
+                                </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="All Rights Reserved Vadodara Municipal Corporation 2022"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="11dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_below="@+id/scrollview"
+                            android:layout_alignParentBottom="true"
+                            android:textColor="@color/white"/>
+                </LinearLayout>
+        </ScrollView>
+
+
+</LinearLayout>

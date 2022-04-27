@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DashboardActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:outlineAmbientShadowColor="@color/purple_700"
+        android:outlineSpotShadowColor="@color/purple_700"
+        android:theme="@style/Theme.ItRaeProject.AppBarOverlay">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbars"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:title="@string/dashboard"
+            android:outlineAmbientShadowColor="@color/purple_700"
+            android:outlineSpotShadowColor="@color/purple_700"
+            app:navigationIcon="@drawable/ic_action_name"
+            app:popupTheme="@style/Theme.ItRaeProject.PopupOverlay" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_dashboard" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:background="@color/lightblue"
+        app:backgroundTint="@color/lightblue"
+        android:layout_margin="20dp"
+        android:tint="@color/white"
+        android:tintMode="multiply"
+        android:backgroundTint="@color/lightblue"
+        app:srcCompat="@drawable/ic_baseline_message_24" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

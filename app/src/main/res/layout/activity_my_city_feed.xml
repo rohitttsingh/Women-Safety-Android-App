@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkbg"
+    android:orientation="vertical"
+    tools:context=".MyCityFeedActivity">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:titleTextColor="@color/white"
+            app:title="@string/mycityfeed"
+            app:navigationIcon="@drawable/ic_bacbtn"
+
+            android:outlineAmbientShadowColor="@color/purple_700"
+            android:outlineSpotShadowColor="@color/purple_700"
+            app:popupTheme="@style/Theme.ItRaeProject.PopupOverlay" />
+
+<WebView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:id="@+id/webview"/>
+
+</LinearLayout>

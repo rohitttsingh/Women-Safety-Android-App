@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkbg"
+    android:orientation="vertical"
+    tools:context=".EmergencyActivity">
+
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/emergencytoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:outlineAmbientShadowColor="@color/purple_700"
+            android:outlineSpotShadowColor="@color/purple_700"
+            app:title="@string/emergency"
+            app:navigationIcon="@drawable/ic_bacbtn"
+            app:popupTheme="@style/Theme.ItRaeProject.PopupOverlay"
+            app:titleTextColor="@color/white" />
+
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="@string/allemergencyservices"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/panicbutton"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_row="1"
+        android:layout_columnWeight="1"
+        android:layout_below="@+id/title"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="10dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/side_nav_bar">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_siren"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dp"/>
+            <TextView
+                android:id="@+id/maintitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Panic Button"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_below="@+id/maintitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Panic Botton For Women Safety"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="13dp"/>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/viewline"
+        android:layout_width="290dp"
+        android:layout_height="1.5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:alpha="0.5"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/panicbutton"
+        android:background="@color/purple_700" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/viewline">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:rowCount="5"
+                android:columnCount="2">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/ambulance"
+                    android:layout_width="10dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:background="@color/white"
+                    app:cardBackgroundColor="#657ac3"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Ambulance \n 108"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textSize="16dp"/>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/firebrigade"
+                    android:layout_width="10dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:background="@color/white"
+                    app:cardBackgroundColor="#d73a01"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Fire Brigade \n 101"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textSize="16dp"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/police"
+                    android:layout_width="10dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:background="@color/white"
+                    app:cardBackgroundColor="#e40000"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Police \n 100"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textSize="16dp"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/womenhelpline"
+                    android:layout_width="10dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:background="@color/white"
+                    app:cardBackgroundColor="#b5337c"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Women Helpline \n 1091"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textSize="16dp"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/childlhelpine"
+                    android:layout_width="10dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:background="@color/white"
+                    app:cardBackgroundColor="#1b97e1"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Child Helpline \n 1098"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textSize="16dp"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/animalhelpline"
+                    android:layout_width="10dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:background="@color/white"
+                    app:cardBackgroundColor="#32c076"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Animal Helpline \n 1962"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textSize="16dp"/>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/seniorhelpline"
+                    android:layout_width="10dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:background="@color/white"
+                    app:cardBackgroundColor="#5830df"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Senior Citizens \n14567"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textSize="16dp"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/allemergency"
+                    android:layout_width="10dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:background="@color/white"
+                    app:cardBackgroundColor="#1e79d4"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="All Emergency \n 112"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textSize="16dp"/>
+                </androidx.cardview.widget.CardView>
+
+
+
+            </GridLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All Rights Reserved Vadodara Municipal Corporation 2022"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="11dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/scrollview"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
